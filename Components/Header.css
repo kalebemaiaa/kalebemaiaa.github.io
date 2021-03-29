@@ -1,0 +1,22 @@
+.header{
+    size:60px;
+    background-color: #370858;
+    color: #FDA7DF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:5px solid #edc2c2;
+}
+.header.navegation{
+}
+.header .navegation .referencias{
+    color:#edc2c2;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 20px;
+    font-family: 'Modern Antiqua', cursive;
+}
+.header .logo{
+    height: 100px;
+}

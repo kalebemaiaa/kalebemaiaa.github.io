@@ -1,0 +1,36 @@
+.section-two{
+    display: block;
+    height: 800px;
+    background-color: #370858;
+    align-items: center;
+    border-bottom: 10px solid #edc2c2;
+}
+.icon-skills{
+    height: 100px;
+    width:100px;
+}
+.section-two .skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 440px;
+    margin-right: 440px;
+    margin-top: 20px;
+}
+.section-two .skill .progress-bar{
+    height: 50px;
+    width:500px;
+    background-color: #181303;
+    border:5px solid black;
+    box-shadow: 5px 5px #6F2480;
+}
+
+.bar-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+}
+.progress-bar::-webkit-progress-bar,
+.progress-bar::-moz-progress-bar{
+    background-color: #9E58DC;
+}

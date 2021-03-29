@@ -1,0 +1,18 @@
+.section-three{
+    height: 800px;
+    background-color: #9E58DC;
+}
+.image-projects{
+    border:5px black solid;
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-top: 100px;
+    box-shadow:5px 5px 0 #edc2c2;
+    background-color: #370858;
+}
+.section-three .sub-title{
+    text-shadow:5px 5px 0 #370858;
+}

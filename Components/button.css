@@ -1,18 +1,10 @@
 .button{
-    background-color:#9370DB;
-    margin-top:10px;
-    margin-bottom: 10px;
-    padding: 9px 10px;
-    box-shadow: 5px 5px #edc2c2;
-    border:1px solid #370858;
-    display:inline-block;
-    color:#370858;
     text-decoration: none;
-    font-family: "fira code",sans-serif;
-    margin-right: 10px;
-    font-size: 23px;
-}
-.button:hover{
-    transform:scale(1.1);
-
+    font-size: 30px;
+    font-family: 'Modern Antiqua', cursive;
+    color:#370858;
+    background-color:#9E58DC;
+    margin-right:10px;
+    box-shadow: 5px 5px #fff;
+    padding: 10px;
 }

@@ -1,0 +1,16 @@
+.section-one{
+    height: 800px;
+    background-color:#9E9D9B; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 10px solid #edc2c2;
+}
+.text-section-one{
+    display: inline-block;
+    padding-bottom: 15px;
+}
+.section-one .button{
+    margin-top: 30px;
+    display: inline-block;
+}
