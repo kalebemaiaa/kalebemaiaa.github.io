@@ -1,0 +1,20 @@
+.background {
+    background-image: url(../Images/finish.png);
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: 100%;
+    border-bottom:10px solid #370858;
+}
+
+.background .sand{
+    display: flex;
+    flex-direction: column;
+}
+
+.background .tensei{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-right: 400px;
+    justify-content: space-between;
+}
