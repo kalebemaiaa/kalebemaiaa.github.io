@@ -1,0 +1,23 @@
+.main-projects{
+    background-color: #9E58DC;
+    text-align: center;
+    height: 800px;
+    border-bottom: 10px solid #edc2c2;
+}
+.main-projects .subtitle{
+    display: block;
+    text-shadow: 3px 3px 0 #370858;
+}
+
+.box-projects{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.link-project{
+    box-shadow: 5px 5px 0 #000;
+}
+.link-project:hover{
+    transform: scale(1.05);
+}

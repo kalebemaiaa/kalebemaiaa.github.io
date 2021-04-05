@@ -1,0 +1,41 @@
+.main-hability{
+    height: 800px;
+    background-color: #370858;
+    border-bottom: 10px solid #edc2c2;
+    text-align: center;
+}
+.main-hability .subtitle{
+    text-shadow:3px 3px 0 #9E58DC;
+    margin-bottom: 40px;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    text-align: left;
+}
+.skills-logo{
+    width: 80px;
+}
+.main-skills .text{
+    color: #edc2c2;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    margin-top: 0px;
+}
+.progress-bar{
+    background-color: #181303; 
+    height: 30px;
+    width:300px;
+    border:3px solid #000;
+    
+}
+.progress-bar::-webkit-progress-bar, .progress-bar::-moz-progress-bar {
+    background-color: #9E58DC;
+}
+.main-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

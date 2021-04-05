@@ -1,0 +1,47 @@
+.main-contato{
+    height: 800px;
+    background-color: #370858;
+    text-align: center;
+}
+.main-contato .subtitle{
+    text-shadow: 3px 3px 0 #9E58DC;
+}
+.label{
+    color: #edc2c2;
+    display: block;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+}
+.input{
+    height: 40px;
+    width: 80%;
+    background-color: #9E58DC;
+    border:3px solid #000;
+    color: #fff;
+    font-size: 30px;
+}
+.mensagem{
+    height: 400px;
+    width: 80%;
+    background-color: #9E58DC;
+    color: #fff;
+    border: 3px solid #000;
+    font-size: 30px;
+    resize: none;
+}
+.submit{
+    height: 40px;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #9E58DC;
+    border: 3px solid #000;
+    color: #edc2c2;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    cursor:pointer;
+}
+.submit:hover{
+    transform: scale(1.05);
+}

@@ -1,0 +1,24 @@
+.main-apresentation{   
+    height: 800px;
+    background-color: #9E58DC;
+    border-bottom: 10px solid #edc2c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    text-decoration: none;
+    color:#370858;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.baixar{
+    text-decoration: none;
+    color: #fff;
+}
+.arquivos{
+    margin-top: 50px;
+    justify-content: space-between;
+}

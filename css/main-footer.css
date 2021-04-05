@@ -1,0 +1,14 @@
+.main-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #edc2c2;
+}
+.redes-sociais{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.social-logo{
+    width: 60px;
+}

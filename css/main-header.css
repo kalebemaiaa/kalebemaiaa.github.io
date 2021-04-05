@@ -1,0 +1,22 @@
+.main-header{
+    background-color: #370858;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:10px solid #edc2c2;
+}
+.main-header .downloads{
+    box-shadow: 5px 5px 0 #9E58DC;
+}
+.logo{
+    height: 100px;
+    display: inline-block;
+}
+.navegation{
+    text-decoration: none;
+    color: #edc2c2;
+    font-size: 35px;
+    font-family: 'Cinzel', serif;
+    margin-right: 30px;
+}

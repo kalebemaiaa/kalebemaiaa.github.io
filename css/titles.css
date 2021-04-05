@@ -1,0 +1,16 @@
+.title{
+    font-size: 100px;
+    font-family: 'Yatra One', cursive;
+    color: #370858;
+    text-shadow: 3px 3px 0 #000;
+    background-color: #edc2c2;
+    box-shadow: 5px 5px 0 #000;
+}
+.subtitle{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+
+}

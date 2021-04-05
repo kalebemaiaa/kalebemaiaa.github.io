@@ -1,87 +1,110 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <title>Kalebe Felipe</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=New+Tegomin&family=Press+Start+2P&family=Train+One&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" type="text/css" href="Components/Reset.css">
-        <link rel="stylesheet" href="Components/Header.css">
-        <link rel="stylesheet" href="Components/Button.css">
-        <link rel="stylesheet" href="Components/Title.css">
-        <link rel="stylesheet" href="Components/Background.css">
-        <link rel="stylesheet" href="Components/Section-one.css">
-        <link rel="stylesheet" href="Components/section-two.css">
-        <link rel="stylesheet" href="Components/section-three.css">
-    </head>
-    <body>
-        <header class="header">
-            <img class="logo" src="Img/Logo kalebe.png">
-            <nav class="navegation">
-                <a class="referencias" href="">Habilidades</a>
-                <a class="referencias" href="">Sobre mim</a>
-                <a class="referencias" href="">Projetos</a>
-                <a class="referencias" href="">Contatos</a>
-                <a href="" class="button">Download CV</a>
-            </nav>
-        </header>
-        <section class="section-one">
-            <div class="text-section-one">
-                <h1 class="title">
-                    Kalebe Maia
-                </h1>
-                    <a href="" class="button">Download CV</a>
-                    <a href="" class="button">Download CV</a>
-                    <a href="" class="button">Download CV</a>
-            </div>       
-        </section> 
-        <section class="section-two">
-            <h2 class="sub-title">Skills</h2>
-                <div class="box-skills">
-                    <article class="skill">    
-                        <img src="Img/excel.png" class="icon-skills"> 
-                        <div class="bar-text">
-                            <h3 class="ss-title">Excel</h3>
-                            <progress class="progress-bar" max="100" value="50">50%</progress>
-                        </div>
-                    </article>
-                    <article class="skill">     
-                        <img src="Img/powerpoint-removebg-preview-removebg-preview.png" class="icon-skills"> 
-                        <div class="bar-text">  
-                            <h3 class="ss-title">Power Point</h3>
-                            <progress class="progress-bar" max="100" value="50">50%</progress>
-                        </div>
-                    </article>
-                    <article class="skill">    
-                        <img src="Img/word-removebg-preview.png" class="icon-skills">   
-                        <div class="bar-text">   
-                            <h3 class="ss-title">Word</h3>
-                            <progress class="progress-bar" max="100" value="50">50%</progress>
-                        <div>
-                    </article>
-                    <article class="skill">    
-                        <img src="Img/css-removebg-preview.png" class="icon-skills">   
-                        <div class="bar-text">
-                            <h3 class="ss-title">CSS</h3>
-                            <progress class="progress-bar" max="100" value="50">50%</progress>
-                        </div>
-                    </article>
-                    <article class="skill">    
-                        <img src="Img/html-removebg-preview.png" class="icon-skills">   
-                        <div class="bar-text">  
-                            <h3 class="ss-title">Html</h3>
-                            <progress class="progress-bar" max="100" value="50">50%</progress>
-                        </div>
-                    </article>
-                </div>
-        </section>
-        <section class="section-three">
-            <div class="box-projects">
-                <h2 class="sub-title">Projetos</h2> 
-                <img src="Img/html-removebg-preview.png" class="image-projects">
-                <img src="" class="image-projects">
-                <img src="" class="image-projects">
-            </div>
-        </section>
-    </body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Site pessoal | Kalebe</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cinzel:wght@500&family=New+Tegomin&family=Syne+Mono&family=Yatra+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/main-header.css">
+		<link rel="stylesheet" href="css/downloads.css" >
+		<link rel="stylesheet" href="css/titles.css" >
+		<link rel="stylesheet" href="css/main-footer.css" >
+		<link rel="stylesheet" href="css/main-contato.css" >
+		<link rel="stylesheet" href="css/main-hability.css" >
+		<link rel="stylesheet" href="css/main-apresentation.css" >
+		<link rel="stylesheet" href="css/main-projects.css" >
+	</head>
+	<body>
+		<header class="main-header">
+			<img src="img/logo-kalebe.png" class="logo">
+			<nav>
+				<a class="navegation" href="#main-hability">Habilidades</a>
+				<a class="navegation" href="#main-projects">Projetos</a>
+				<a class="navegation" href="#main-contato">Contato</a>
+				<a class="downloads" href="documents/Kalebe Felipe.pdf" download="Kalebe Felipe.pdf">Download CV</a>
+			</nav>
+		</header>
+		<section class="main-apresentation">
+			<h1 class="title">Kalebe Maia</h1>
+			<div class="arquivos">
+				<a href="documents/15pic.pdf" download="15pic.pdf" class="downloads">15º pic</a>
+				<a class="downloads" href="documents/Kalebe Felipe.pdf" download="Kalebe Felipe.pdf">Download CV</a>
+			</div>
+		</section>
+		<section class="main-hability" id="main-hability">
+			<h2 class="subtitle">Habilidades</h2>
+			<article class="main-skills">
+				<img class="skills-logo" alt="Logo html5" src="img/logo-html.png">
+				<div class="skills">
+					<p class="text">HTML5</p>
+					<progress class="progress-bar" max="100" value="20" >20%</progress>
+				</div>
+			</article>
+			<article class="main-skills">
+				<img class="skills-logo" alt="Logo css" src="img/logo-css.png">
+				<div class="skills">
+					<p class="text">CSS</p>
+					<progress class="progress-bar" max="100" value="10" >10%</progress>
+				</div>
+			</article>
+			<article class="main-skills">
+				<img class="skills-logo" alt="Logo javascript" src="img/logo-js.png">
+				<div class="skills">
+					<p class="text">JavaScript</p>
+					<progress class="progress-bar" max="100" value="5" >5%</progress>
+				</div>
+			</article>
+			<article class="main-skills">
+				<img class="skills-logo" alt="Logo word" src="img/logo-word.png">
+				<div class="skills">
+					<p class="text">Word</p>
+					<progress class="progress-bar" max="100" value="40" >40%</progress>
+				</div>
+			</article>
+			<article class="main-skills">
+				<img class="skills-logo" alt="Logo excel" src="img/logo-excel.png">
+				<div class="skills">
+					<p class="text">Excel</p>
+					<progress class="progress-bar" max="100" value="40" >40%</progress>
+				</div>
+			</article>
+			<article class="main-skills">
+				<img class="skills-logo" alt="Logo pi" src="img/logo-pi.png">
+				<div class="skills">
+					<p class="text">Math</p>
+					<progress class="progress-bar" max="100" value="50" >50%</progress>
+				</div>
+			</article>
+		</section>
+		<section class="main-projects" id="main-projects">
+			<h2 class="subtitle">Projetos</h2>
+			<div class="box-projects">	
+				<a href="" class="ancora" ><img src="img/em-breve.png" class="link-project" alt="Em breve"></a>
+				<a href="" class="ancora" ><img src="img/em-breve.png" class="link-project" alt="Em breve"></a>
+				<a href="" class="ancora" ><img src="img/em-breve.png" class="link-project" alt="Em breve"></a>
+			</div>
+		</section>
+		<section class="main-contato" id="main-contato">
+			<h2 class="subtitle">Contato</h2>
+			<form method="POST" action="mailto:kalebe258456@gmail.com">
+				<label for="name" class="label">Nome</label>
+				<input class="input" type="text" id="name">
+				<label for="email" class="label">E-mail</label>
+				<input class="input" type="email" id="email">
+				<label for="message" class="label">Menssagem</label>
+				<textarea name="Mande uma mensagems" class="mensagem" id="message"></textarea>
+				<button class="submit"type="submit">Enviar</button>
+			</form>
+		</section>
+		<footer class="main-footer" id="main-footer">
+			<a class="redes-sociais" href="https://www.facebook.com/kalebe.felipe.3/" target="_blank" ><img class="social-logo" src="img/logo-face.png"></a>
+			<a class="redes-sociais" href="https://www.instagram.com/kalebefs_maia/" target="_blank"><img src="img/logo-insta.png" class="social-logo" alt="Logo do instagram com hiperlink"></a>
+			<a class="redes-sociais" href="http://lattes.cnpq.br/3367256194351166" target="_blank"><img src="img/logo-lattes.png"  class="social-logo" alt="Lattes logo"></a>
+			<a class="redes-sociais" href="https://www.linkedin.com/in/kalebe-felipe-04a0aa20b/" target="_blank" ><img src="img/logo-linkedin.png"  class="social-logo" alt="Linkedin logo"></a>
+			<a class="redes-sociais" href="https://discord.gg/FJ9r5uVz" target="_blank" ><img src="img/logo-discord.png"  class="social-logo" alt="Discord logo"></a>
+
+		</footer>
+	</body>
+	<script src="js/script.js"></script>
 </html>
