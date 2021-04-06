@@ -1,0 +1,12 @@
+@media (max-width:342px){
+    
+}
+@media (max-width:446px){
+    .navegation{
+        font-size: 10px;
+    }
+    .button{
+        font-size: 10px;
+        height: 15px;
+    }
+}
