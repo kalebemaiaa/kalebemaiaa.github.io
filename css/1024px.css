@@ -1,0 +1,15 @@
+@media (min-width:1024px){
+    #btnOne{
+        font-size: 30px;
+    }   
+    .link-project{
+        height: 235px;
+    }   
+    .navegation{
+        font-size: 30px;
+    }
+    .link-project{
+        font-size:300px;
+    }
+}
+

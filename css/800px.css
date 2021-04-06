@@ -1,0 +1,11 @@
+@media (min-width:800px){
+    #btnOne{
+        display: none;
+    }   
+    .link-project{
+        height: 235px;
+    }   
+    #main-projects{
+        height: 600px;
+    }
+}

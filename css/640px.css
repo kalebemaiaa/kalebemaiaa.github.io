@@ -1,0 +1,27 @@
+@media (min-width:640px){
+    #btnOne{
+        display: none;
+    }   
+    .link-project{
+        height: 180px;
+    }   
+    .title{
+        font-size: 90px;
+    }
+    .main-apresentation{
+        height: 600px;
+    }
+    #main-projects{
+        height: 500px;
+    }
+    .navegation{
+        font-size: 25px;
+    }
+    .logo{
+        height: 60px;
+    }
+    .main-header{
+        height: 60px;
+        border-bottom: 5px solid #edc2c2;
+    }
+}

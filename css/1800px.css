@@ -1,0 +1,28 @@
+@media (min-width:1800px){
+    .main-hability{
+        height: 1000px;
+    }
+    .skills-logo{
+        height: 120px;
+    }
+    .progress-bar{
+        height: 50px;
+        width: 500px;
+    }
+    .text{
+        font-size: 50px;
+        text-align: left;
+    }
+    .main-header{
+        height: 150px;
+    }
+    .logo{
+        height: 150px;
+    }
+    .navegation{
+        font-size: 40px;
+    }
+    #btnOne{
+        font-size: 40px;
+    }
+}

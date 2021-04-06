@@ -1,0 +1,39 @@
+@media (min-width:342px){
+    #navegation{
+        display: none;
+    }
+    .main-apresentation{
+        height: 400px;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .downloads{
+        font-size: 18px;
+    }    
+    .main-hability{
+        height:600px
+    }
+    .social-logo{
+        width: 30px;
+    }
+    .skills-logo{
+        width: 40px;
+    }
+    .text{
+        font-size:20px;
+    }
+    .progress-bar{
+        height: 20px;
+        width: 200px;
+    }
+    #main-projects{
+        height: 400px;
+    }
+    .link-project{
+        height: 100px;
+    }  
+    .main-footer{
+        height: 50px;
+    }
+}

@@ -1,0 +1,22 @@
+
+@media (min-width:480px){
+    #btnOne{
+        display: none;
+    }   
+    .link-project{
+        height: 140px;
+    }   
+    #main-projects{
+        height: 500px;
+    }
+    #navegation{
+        display: none;
+    }
+    .title{
+        font-size: 70px;
+    }
+    .downloads{
+        font-size: 25px;
+    }
+}
+
