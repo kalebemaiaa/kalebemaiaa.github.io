@@ -1,8 +1,154 @@
-@media (min-width:850px){
+@media (min-width:342px){
+    #navegation{
+        display: none;
+    }
+    .main-apresentation{
+        height: 400px;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .downloads{
+        font-size: 18px;
+    }    
+    .main-hability{
+        height:600px
+    }
+    .social-logo{
+        width: 30px;
+    }
+    .skills-logo{
+        width: 40px;
+    }
+    .text{
+        font-size:20px;
+    }
+    .progress-bar{
+        height: 20px;
+        width: 200px;
+    }
+    #main-projects{
+        height: 400px;
+    }
+    .link-project{
+        height: 100px;
+    }  
+    .main-footer{
+        height: 50px;
+    }
+}
+
+
+@media (min-width:480px){
+    #btnOne{
+        display: none;
+    }   
+    .link-project{
+        height: 140px;
+    }   
+    #main-projects{
+        height: 500px;
+    }
+    #navegation{
+        display: none;
+    }
+    .title{
+        font-size: 70px;
+    }
+    .downloads{
+        font-size: 25px;
+    }
+}
+
+
+
+@media (min-width:640px){
+    #btnOne{
+        display: none;
+    }   
+    .link-project{
+        height: 180px;
+    }   
+    .title{
+        font-size: 90px;
+    }
+    .main-apresentation{
+        height: 600px;
+    }
+    #main-projects{
+        height: 500px;
+    }
+    .navegation{
+        font-size: 25px;
+    }
+    .logo{
+        height: 60px;
+    }
+    .main-header{
+        height: 60px;
+        border-bottom: 5px solid #edc2c2;
+    }
+}
+@media (min-width:800px){
     #btnOne{
         display: none;
     }   
     .link-project{
         height: 235px;
     }   
+    #main-projects{
+        height: 600px;
+    }
+}
+@media (min-width:1024px){
+    #btnOne{
+        font-size: 30px;
+    }   
+    .link-project{
+        height: 235px;
+    }   
+    .navegation{
+        font-size: 30px;
+    }
+    .link-project{
+        font-size:300px;
+    }
+}
+@media (min-width:1280px){ 
+    .link-project{
+        height: 360px;
+    }   
+}
+@media (min-width:1600px){   
+    .link-project{
+        height: 470px;
+    }   
+}
+@media (min-width:1800px){
+    .main-hability{
+        height: 1000px;
+    }
+    .skills-logo{
+        height: 120px;
+    }
+    .progress-bar{
+        height: 50px;
+        width: 500px;
+    }
+    .text{
+        font-size: 50px;
+        text-align: left;
+    }
+    .main-header{
+        height: 150px;
+    }
+    .logo{
+        height: 150px;
+    }
+    .navegation{
+        font-size: 40px;
+    }
+    #btnOne{
+        font-size: 40px;
+    }
 }
