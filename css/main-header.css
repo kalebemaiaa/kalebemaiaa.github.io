@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom:10px solid #edc2c2;
+    width: 100%;
 }
 .main-header .downloads{
     box-shadow: 5px 5px 0 #9E58DC;
