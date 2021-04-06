@@ -1,4 +1,4 @@
-@media (min-width:342px){
+@media (max-width:342px){
     #navegation{
         display: none;
     }

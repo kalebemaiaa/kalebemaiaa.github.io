@@ -1,4 +1,4 @@
-@media (min-width:1280px){ 
+@media (max-width:1280px){ 
     .link-project{
         height: 360px;
     }   
