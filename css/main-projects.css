@@ -18,6 +18,7 @@
 }
 .link-project{
     box-shadow: 5px 5px 0 #000;
+    height: 470px;
 }
 .link-project:hover{
     transform: scale(1.05);
