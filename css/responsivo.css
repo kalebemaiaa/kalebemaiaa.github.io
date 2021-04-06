@@ -1,5 +1,5 @@
 @media (max-width:850px){
     .main-apresentation,.main-contato,.main-footer,.main-hability,.main-header,.main-projects{
-        width: 100%;
+        width: 850px;
     }
 }
