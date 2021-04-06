@@ -1,5 +1,5 @@
 
-@media (max-width:480px){
+@media (min-width:480px)and (max-width:639px){
     #btnOne{
         display: none;
     }   

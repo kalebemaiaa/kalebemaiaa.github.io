@@ -1,4 +1,4 @@
-@media (max-width:800px){
+@media (min-width:800px)and (max-width:1023px){
     #btnOne{
         display: none;
     }   
