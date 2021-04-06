@@ -1,15 +1,5 @@
-@media (max-width:342px){
-    
-}
-@media (max-width:446px){
-    .navegation{
-        font-size: 10px;
-    }
-    .button{
-        font-size: 10px;
-        height: 15px;
-    }
-    .link-project{
-        height: 100px;
+@media (max-width:850px){
+    .main-apresentation,.main-contato,.main-footer,.main-hability,.main-header,.main-projects{
+        width: 100%;
     }
 }
