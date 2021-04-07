@@ -1,14 +1,12 @@
-/*var botao=document.querySelector("#discord-button");
+var email=document.querySelector('#email')
+var assunto=document.querySelector('#assunto')
 
-
-function copyText(){
-    var discord="Kalebe#9951"
-    discord.select();
-    document.execCommand("Copy");
+function sendMail() {
+    var link = "mailto:kalebe258456@gmail.com"
+             + "?cc=" +encodeURIComponent(email.value)
+             + "&subject=" + encodeURIComponent(assunto.value)
+             + "&body=" + encodeURIComponent(document.getElementById('myText').value)
+    ;
     
+    window.location.href = link;
 }
-
-botao.onclick=copyText
-
-https://www.linkedin.com/in/kalebe-felipe-04a0aa20b/
-*/

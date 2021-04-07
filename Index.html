@@ -96,13 +96,13 @@
 		<section class="main-contato" id="main-contato">
 			<h2 class="subtitle">Contato</h2>
 			<form method="POST" action="mailto:kalebe258456@gmail.com">
-				<label for="name" class="label">Nome</label>
-				<input class="input" type="text" id="name" placeholder="Coloque seu nome">
+				<label for="assunto" class="label">Assunto</label>
+				<input class="input" name="assunto" type="text" id="assunto" placeholder="Sobre o que quer falar?">
 				<label for="email" class="label">E-mail</label>
-				<input class="input" type="email" id="email" placeholder="Coloque seu e-mail">
+				<input class="input" name="usuario-email" type="email" id="email" placeholder="Coloque seu e-mail para Contato">
 				<label for="message" class="label">Menssagem</label>
-				<textarea name="" class="mensagem" id="message"></textarea>
-				<button class="submit"type="submit">Enviar</button>
+				<textarea name="usuario-text" class="mensagem" id="myText"></textarea>
+				<button onclick="sendMail();return false" class="submit"type="submit">Enviar</button>
 			</form>
 		</section>
 		<footer class="main-footer" id="main-footer">
