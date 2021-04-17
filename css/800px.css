@@ -2,10 +2,13 @@
     #btnOne{
         display: none;
     }   
+    #main-projects{
+        height: 600px;
+    }
     .link-project{
         height: 235px;
     }   
-    #main-projects{
-        height: 600px;
+    .text{
+        font-size:27px;
     }
 }

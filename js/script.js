@@ -15,17 +15,19 @@ var btn_left=document.getElementById(`left-arrow`)
 var carrossel=document.getElementById(`carrossel`)
 var pixels=50
 
-function mover_right(){
+function mover_left(){
     if(pixels<=1200){
        pixels=pixels+50
 }
     carrossel.style=`transform:translateX(${pixels}px)`
 }
-function mover_left(){
+function mover_right(){
     if(pixels>=-1200){
         pixels=pixels-50
 }
     carrossel.style=`transform:translateX(${pixels}px)`
 }
+
+
 btn_right.onclick=mover_right
 btn_left.onclick=mover_left

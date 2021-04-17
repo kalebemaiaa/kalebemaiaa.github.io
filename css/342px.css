@@ -2,6 +2,9 @@
     #navegation{
         display: none;
     }
+    #main-projects{
+        height: 400px;
+    }
     .main-apresentation{
         height: 400px;
     }
@@ -26,9 +29,6 @@
     .progress-bar{
         height: 20px;
         width: 200px;
-    }
-    #main-projects{
-        height: 400px;
     }
     .link-project{
         height: 100px;

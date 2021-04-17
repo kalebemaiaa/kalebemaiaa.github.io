@@ -1,5 +1,7 @@
 @media (min-width:1800px){
-    .main-hability{
+    #btnOne{
+        font-size: 40px;
+    }.main-hability{
         height: 1000px;
     }
     .skills-logo{
@@ -22,7 +24,5 @@
     .navegation{
         font-size: 40px;
     }
-    #btnOne{
-        font-size: 40px;
-    }
+    
 }

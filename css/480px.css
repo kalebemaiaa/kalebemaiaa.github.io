@@ -2,21 +2,24 @@
 @media (min-width:480px)and (max-width:639px){
     #btnOne{
         display: none;
-    }   
-    .link-project{
-        height: 140px;
-    }   
+    } 
     #main-projects{
         height: 500px;
     }
     #navegation{
         display: none;
-    }
+    }   
+    .link-project{
+        height: 140px;
+    }     
     .title{
         font-size: 70px;
     }
     .downloads{
         font-size: 25px;
+    }
+    .text{
+        font-size: 20px;
     }
 }
 
