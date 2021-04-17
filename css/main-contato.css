@@ -2,6 +2,7 @@
     height: 800px;
     background-color: #370858;
     text-align: center;
+    border-bottom:10px solid #edc2c2;
 }
 .main-contato .subtitle{
     text-shadow: 3px 3px 0 #9E58DC;
