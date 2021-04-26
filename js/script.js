@@ -10,10 +10,10 @@ function sendMail() {
     window.location.href = link;
 }
 
-var btn_right=document.getElementById(`right-arrow`)
-var btn_left=document.getElementById(`left-arrow`)
-var carrossel=document.getElementById(`carrossel`)
 var pixels=50
+var carrossel=document.getElementById(`carrossel`)
+var btn_left=document.getElementById(`left-arrow`)
+var btn_right=document.getElementById(`right-arrow`)
 
 function mover_left(){
     if(pixels<=1200){
@@ -27,7 +27,5 @@ function mover_right(){
 }
     carrossel.style=`transform:translateX(${pixels}px)`
 }
-
-
 btn_right.onclick=mover_right
 btn_left.onclick=mover_left

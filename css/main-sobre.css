@@ -44,7 +44,11 @@
     box-shadow:5px 5px 0 #370858;
     margin-right: 20px;
     margin-left: 20px;
-    margin-top: 30px   
+    margin-top: 30px;
+    cursor: pointer;
+}
+.btns:hover{
+    transform: scale(1.1);   
 }
 .icon-history::before{
     content: '';
