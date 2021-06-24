@@ -1,13 +1,24 @@
 function sendMail() {
     var email=document.querySelector('#email')
     var assunto=document.querySelector('#assunto')
-    var link = "mailto:kalebe258456@gmail.com"
-             + "?cc=" +encodeURIComponent(email.value)
-             + "&subject=" + encodeURIComponent(assunto.value)
-             + "&body=" + encodeURIComponent(document.getElementById('myText').value)
-    ;
+    var text =document.querySelector('#myText')
+
+    if(assunto.value!=""&&email.value!=""&&text.value!=""){
+        console.log("oi")
+        var link = "mailto:kalebe258456@gmail.com"
+                + "?cc=" +encodeURIComponent(email.value)
+                + "&subject=" + encodeURIComponent(assunto.value)
+                + "&body=" + encodeURIComponent(document.getElementById('myText').value)
     
-    window.location.href = link;
+        window.location.href = link;
+
+        text.value=('')
+        assunto.value=('')
+        email.value=('')
+    }
+    else{
+        console.log("tchau")
+    }
 }
 
 var pixels=50

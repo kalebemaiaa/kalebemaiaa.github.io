@@ -1,6 +1,6 @@
 .main-header{
     background-color: #370858;
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,15 +9,16 @@
 }
 .main-header .downloads{
     box-shadow: 5px 5px 0 #9E58DC;
+    font-size: 30px;
 }
 .logo{
-    height: 100px;
+    height: 80px;
     display: inline-block;
 }
 .navegation{
     text-decoration: none;
     color: #edc2c2;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Cinzel', serif;
     margin-right: 30px;
 }
