@@ -7,13 +7,14 @@
     background-color: #370858;
 }
 .redes-sociais{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0px 20px;
+    border-radius: 11px;
+    background-color: #9E58DC;
 }
 .redes-sociais:hover{
     background-color: #fff;
     transform: scale(1.2);
 }
 .social-logo{
-    width: 40px;
+    width: 38px;
 }
