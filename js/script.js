@@ -4,7 +4,6 @@ function sendMail() {
     var text =document.querySelector('#myText')
 
     if(assunto.value!=""&&email.value!=""&&text.value!=""){
-        console.log("oi")
         var link = "mailto:kalebe258456@gmail.com"
                 + "?cc=" +encodeURIComponent(email.value)
                 + "&subject=" + encodeURIComponent(assunto.value)
@@ -17,14 +16,15 @@ function sendMail() {
         email.value=('')
     }
     else{
-        console.log("tchau")
+        text.value=('')
+        assunto.value=('')
+        email.value=('')
+        alert("Preencha todos os campos")
     }
 }
 
 var pixels=50
 var carrossel=document.getElementById(`carrossel`)
-var btn_left=document.getElementById(`left-arrow`)
-var btn_right=document.getElementById(`right-arrow`)
 
 function mover_left(){
     if(pixels<=1200){
@@ -32,11 +32,10 @@ function mover_left(){
 }
     carrossel.style=`transform:translateX(${pixels}px)`
 }
+
 function mover_right(){
     if(pixels>=-1200){
         pixels=pixels-50
 }
     carrossel.style=`transform:translateX(${pixels}px)`
 }
-btn_right.onclick=mover_right
-btn_left.onclick=mover_left
