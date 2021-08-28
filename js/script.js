@@ -39,3 +39,8 @@ function mover_right(){
 }
     carrossel.style=`transform:translateX(${pixels}px)`
 }
+
+function mostra_itens(){
+const botão_mostra_itens = document.querySelector('#mobile-button')
+botão_mostra_itens.style.display="none"
+}

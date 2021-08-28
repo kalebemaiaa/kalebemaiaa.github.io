@@ -15,7 +15,7 @@
         height: 600px;
     }
     .navegation{
-        font-size: 25px;
+        display: none;
     }
     .logo{
         height: 60px;

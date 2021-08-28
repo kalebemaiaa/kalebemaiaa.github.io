@@ -2,4 +2,7 @@
     .link-project{
         height: 360px;
     }   
+    #mobile-button{
+        display: none;
+    }
 }

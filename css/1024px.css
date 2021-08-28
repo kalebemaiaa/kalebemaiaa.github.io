@@ -11,5 +11,8 @@
     .link-project{
         font-size:300px;
     }
+    #mobile-button{
+        display: none;
+    }
 }
 

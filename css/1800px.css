@@ -24,5 +24,7 @@
     .navegation{
         font-size: 40px;
     }
-    
+    #mobile-button{
+        display: none;
+    }
 }

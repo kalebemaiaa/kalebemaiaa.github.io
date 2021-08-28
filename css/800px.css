@@ -11,4 +11,17 @@
     .text{
         font-size:27px;
     }
+    .navegation{
+        display: none;
+    }
+    .main-header{
+        height:120px
+    }
+    .logo{
+        height: 120px;
+    }
+    #mobile-button{
+        height: 90px;
+        margin-right: 35px;
+    }
 }
