@@ -5,7 +5,6 @@
     text-shadow: 3px 3px 0 #000;
     background-color: #edc2c2;
     box-shadow: 5px 5px 0 #370858;
-    padding: 0px 100px;
 }
 .subtitle{
     font-family: 'Amatic SC', cursive;
@@ -13,5 +12,4 @@
     color: #fff;
     font-size: 80px;
     text-align: center;
-
 }

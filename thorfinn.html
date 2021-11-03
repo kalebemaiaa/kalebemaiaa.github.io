@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+	<link rel="shortcut icon" type="image/x-icon" href="./img/2788logo-kalebe.ico">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cinzel:wght@500&family=New+Tegomin&family=Syne+Mono&family=Yatra+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main-header.css">
+    <link rel="stylesheet" href="css/downloads.css" >
+    <link rel="stylesheet" href="css/342px.css"  media="(min-width:342px)">
+	<link rel="stylesheet" href="css/480px.css"  media="(min-width:480px)">
+	<link rel="stylesheet" href="css/640px.css"  media="(min-width:640px)">
+	<link rel="stylesheet" href="css/800px.css"  media="(min-width:800px)">
+	<link rel="stylesheet" href="css/1024px.css" media="(min-width:1024px)" >
+	<link rel="stylesheet" href="css/1280px.css" media="(min-width:1280px)" >
+	<link rel="stylesheet" href="css/1600px.css" media="(min-width:1600px)" >
+	<link rel="stylesheet" href="css/1800px.css" media="(min-width:1800px)" >
+    <link rel="stylesheet" href="css/Project-Thorfinn/main-sobre.css">
+    <link rel="stylesheet" href="css/Project-Thorfinn/main-comandos.css">
+    <title>Thorfinn</title>
+</head>
+<body>
+    <header class="main-header">
+        <img src="img/logo-kalebe.png" class="logo">
+        <nav id="navegation">
+            <a class="navegation" href="#main-hability">Habilidades</a>
+            <a class="navegation" href="#main-projects">Projetos</a>
+            <a class="navegation" href="#main-contato">Contato</a>
+            <a class="downloads" id="btnOne"href="documents/Kalebe Felipe.pdf" download="Kalebe Felipe.pdf">Download CV</a>
+            <img src="img/mobile.png" id="mobile-button" onclick="mostra_itens()">
+        </nav>
+    </header>
+    <section id="main-sobre">
+        <div>
+            <img id="main-avatar" src="https://cdn.discordapp.com/avatars/880967817837559849/cec51862d500188d6b547c59f6be6d3c.png?size=256">
+        </div>
+        <div>
+            <h1 class="title">Thorfinn</h1>
+            <p id="descrição">Thorfinn é um bot para discord criado por mim a partir da API Discord.js do Node js. Possui diversas funcionalidades, porém, ainda está em fase de testes, portanto, se quiser testar seus comandos basta entrar no <a class="link" target="blank" href="https://discord.gg/xh4VY9uc6K">meu servidor do discord</a>.<br>Você é muito bem vindo!</p>
+        </div>
+    </section>
+    <section id="main-comandos">
+        <div id="selecionar-comando">
+            <h2>Selecione uma opção</h2>
+            <select id="select-command">
+                <option value="say">say</option>
+                <option value="ping">ping</option>
+                <option value="play">play</option>
+                <option value="help">help</option>
+                <option value="fila">fila</option>
+                <option value="filtro">filtro</option>
+                <option value="skip">skip</option>
+                <option value="stop">stop</option>
+            </select>    
+            <button id="btn" onclick="mostrarcomando()">Ok</button>
+        </div>
+        <div id="image-of-command">
+            <img id="example-img" src="">
+        </div>
+        <div id="description-of-command">
+            <h2 id="nome_do_comando"></h2>
+            <p id="descrição_do_comando"></p>
+        </div>
+    </section>
+    <script src="./js/project-thorfinn.js"></script>
+</body>
+</html>

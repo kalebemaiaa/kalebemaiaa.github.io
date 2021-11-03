@@ -1,0 +1,27 @@
+#main-avatar{
+    border-radius: 100%;
+    margin-left:200px;
+    margin-right:100px;
+    height: 400px;
+}
+#main-sobre{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    background-color: #9E58DC;
+}
+#descrição{
+    display: inline-block;
+    width: 700px;
+    font-size:25px;
+    margin-top: 30px;
+    color:#edc2c2;
+}
+.title{
+    font-size: 90px;
+    color:#fff;
+}
+.link{
+    text-decoration: none;
+    color:#000;
+}
